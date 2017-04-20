@@ -48,10 +48,10 @@ public class CleverRobot extends IRobotAdapter {
 	}
 
 	private boolean loop() throws Exception {
-		driveDirect(500,500);
-		Thread.sleep(650);
-		driveDirect(0,500);
-		Thread.sleep(650);
+		driveDirect(1000,1000);
+		Thread.sleep(700);
+		driveDirect(0,1000);
+		Thread.sleep(700);
 		if (isCleanButtonDown()) {
 			return false;
 		}
