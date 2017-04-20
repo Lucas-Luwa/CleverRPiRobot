@@ -52,8 +52,8 @@ public class CleverRobot extends IRobotAdapter {
 		Thread.sleep(3000);
 		driveDirect(200,1000);
 		Thread.sleep(1000);
-		driveDirect(200,500);
-		Thread.sleep(600);
+		driveDirect(500,500);
+		Thread.sleep(1500);
 		driveDirect(500,500);
 		if (isCleanButtonDown()) {
 			return false;
