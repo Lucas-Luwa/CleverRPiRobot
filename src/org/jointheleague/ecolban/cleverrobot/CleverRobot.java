@@ -24,7 +24,7 @@ public class CleverRobot extends IRobotAdapter {
 		rob.setup();
 		while(rob.loop()){}
 		rob.shutDown();
-		
+		//HI FWIENDZ
 	}
 
 	private void setup() throws Exception {
